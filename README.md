@@ -1,5 +1,12 @@
 # Duel Double DQN-Pytorch
-This is a **clean and robust Pytorch implementation of Duel Double DQN**. A quick render here:
+This is a **clean and robust Pytorch implementation of Duel Double DQN evaluated on signaling games**. 
+
+
+https://en.wikipedia.org/wiki/Signaling_game.
+
+We found that RNNs and Feed Forward NN's have trouble finding the all of the NE of signaling games.  Furthermore, they failed to cooperate.
+
+A quick render here of DQN:
 
 
 <img src="https://github.com/XinJingHao/DQN-DDQN-Pytorch/blob/main/IMGs/Render_CVP1.gif" width="90%" height="auto">  | <img src="https://github.com/XinJingHao/DQN-DDQN-Pytorch/blob/main/IMGs/Render%20of%20DDQN.gif" width="90%" height="auto">
